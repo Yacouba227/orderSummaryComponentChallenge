@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@700&display=swap');body{
+    background-color: hsl(225, 100%, 94%);
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+.wrapper{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 16px;
+    width: 23%;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+}
+p,
+span{
+    color:  hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 500;
+}
+.mem{
+    color: hsl(223, 47%, 23%);
+}
+.musique{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    align-items: center;
+}
+button{
+    cursor: pointer;
+    width: 86%;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    color: hsl(225, 100%, 98%);
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+button:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+@media screen and (max-width: 425px) {
+    .wrapper{
+        width: 98%;
+    }
+}
